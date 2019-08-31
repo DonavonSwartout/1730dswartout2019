@@ -24,8 +24,12 @@ namespace dswartout1730ex1b
 
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
-            //txtTotal.Text = "10";
-            //txtTotal.ReadOnly = false;
+            txtDiscountAmount.Text = 
+                (Convert.ToDecimal(txtSubtotal.Text)
+                * Convert.ToDecimal(txtDiscountPercent.Text) / 100).ToString();
+            txtTotal.Text = 
+                (Convert.ToDecimal(txtSubtotal.Text)
+                - Convert.ToDecimal(txtDiscountAmount.Text)).ToString();
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
