@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace dswartout1730ex1d
 {
-    public partial class Form1 : Form
+    public partial class frmCurrencyExchange : Form
     {
-        public Form1()
+        public frmCurrencyExchange()
         {
             InitializeComponent();
         }

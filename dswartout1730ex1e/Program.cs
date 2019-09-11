@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dswartout1730ex1d
+namespace dswartout1730ex1e
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace dswartout1730ex1d
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCurrencyExchange());
+            Application.Run(new frmAverageTestScore());
         }
     }
 }
