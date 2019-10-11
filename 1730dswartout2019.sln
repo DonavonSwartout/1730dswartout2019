@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex1e", "dswart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex1f", "dswartout1730ex1f\dswartout1730ex1f.csproj", "{91AD4A41-D771-4F90-A134-D49DB17D7ED2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex1g", "dswartout1730ex1g\dswartout1730ex1g.csproj", "{01D4EA2D-97F6-4571-B07A-4C1CA65EF758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex2b", "dswartout1730ex2b\dswartout1730ex2b.csproj", "{1299EAA3-0830-4732-B22C-7B1AD4F21A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{91AD4A41-D771-4F90-A134-D49DB17D7ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91AD4A41-D771-4F90-A134-D49DB17D7ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91AD4A41-D771-4F90-A134-D49DB17D7ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D4EA2D-97F6-4571-B07A-4C1CA65EF758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D4EA2D-97F6-4571-B07A-4C1CA65EF758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D4EA2D-97F6-4571-B07A-4C1CA65EF758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D4EA2D-97F6-4571-B07A-4C1CA65EF758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1299EAA3-0830-4732-B22C-7B1AD4F21A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1299EAA3-0830-4732-B22C-7B1AD4F21A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1299EAA3-0830-4732-B22C-7B1AD4F21A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1299EAA3-0830-4732-B22C-7B1AD4F21A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
