@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex1g", "dswart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex2b", "dswartout1730ex2b\dswartout1730ex2b.csproj", "{1299EAA3-0830-4732-B22C-7B1AD4F21A01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex2d", "dswartout1730ex2d\dswartout1730ex2d.csproj", "{EC390057-BB35-4B11-A103-A2B885869C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1299EAA3-0830-4732-B22C-7B1AD4F21A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1299EAA3-0830-4732-B22C-7B1AD4F21A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1299EAA3-0830-4732-B22C-7B1AD4F21A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC390057-BB35-4B11-A103-A2B885869C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC390057-BB35-4B11-A103-A2B885869C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC390057-BB35-4B11-A103-A2B885869C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC390057-BB35-4B11-A103-A2B885869C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
