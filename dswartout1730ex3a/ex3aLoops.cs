@@ -183,11 +183,21 @@ namespace dswartout1730ex3a
         public static string Calc6(string strNumbers, string strCount)
         {
             string result = "";
-            int startindex = 0;
+            int startIndex = 0, i = 1, sum = 0;
 
             try
             {
-                
+                int count = Int32.Parse(strCount);
+                while (i <= count)
+                {
+                    int endIndex = strNumbers.IndexOf(' ', startIndex);
+                    string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
+                    int number = Int32.Parse(strNumber);
+                    sum += number;
+                    startIndex = endIndex + 1;
+                    i++;
+                }
+                result = sum.ToString();
             }
             catch
             {
@@ -200,6 +210,27 @@ namespace dswartout1730ex3a
         public static string Calc7(string strNumbers, string strCount)
         {
             string result = "";
+            int startIndex = 0, i = 1, sum = 0;
+
+            try
+            {
+                int count = Int32.Parse(strCount);
+                do
+                {
+                    int endIndex = strNumbers.IndexOf(' ', startIndex);
+                    string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
+                    int number = Int32.Parse(strNumber);
+                    sum += number;
+                    startIndex = endIndex + 1;
+                    i++;
+                }
+                while (i <= count);
+                result = sum.ToString();
+            }
+            catch
+            {
+                result = "Invalid input";
+            }
 
             return result;
         }
@@ -207,6 +238,25 @@ namespace dswartout1730ex3a
         public static string Calc8(string strNumbers, string strCount)
         {
             string result = "";
+            int startIndex = 0, sum = 0;
+
+            try
+            {
+                int count = Int32.Parse(strCount);
+                for (int i = 1; i <= count; i++)
+                {
+                    int endIndex = strNumbers.IndexOf(' ', startIndex);
+                    string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
+                    int number = Int32.Parse(strNumber);
+                    sum += number;
+                    startIndex = endIndex + 1;
+                }
+                result = sum.ToString();
+            }
+            catch
+            {
+                result = "Invalid input";
+            }
 
             return result;
         }
