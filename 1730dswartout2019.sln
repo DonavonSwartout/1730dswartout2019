@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex3c", "dswart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex3cUnitTests", "dswartout1730ex3cUnitTests\dswartout1730ex3cUnitTests.csproj", "{9ACE023A-8FF5-4467-AC17-468B240008D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex3d", "dswartout1730ex3d\dswartout1730ex3d.csproj", "{A558F7F9-5456-49AB-AB2E-57D59DB046F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dswartout1730ex3dUnitTests", "dswartout1730ex3dUnitTests\dswartout1730ex3dUnitTests.csproj", "{1EBCD190-DB6A-4A67-BE64-FE262D7B6926}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{9ACE023A-8FF5-4467-AC17-468B240008D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ACE023A-8FF5-4467-AC17-468B240008D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ACE023A-8FF5-4467-AC17-468B240008D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A558F7F9-5456-49AB-AB2E-57D59DB046F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A558F7F9-5456-49AB-AB2E-57D59DB046F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A558F7F9-5456-49AB-AB2E-57D59DB046F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A558F7F9-5456-49AB-AB2E-57D59DB046F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBCD190-DB6A-4A67-BE64-FE262D7B6926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBCD190-DB6A-4A67-BE64-FE262D7B6926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBCD190-DB6A-4A67-BE64-FE262D7B6926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBCD190-DB6A-4A67-BE64-FE262D7B6926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
